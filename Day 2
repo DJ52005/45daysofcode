@@ -1,0 +1,9 @@
+T = int(input("Enter the number of cases:"))
+for i in range(T):
+    X = int(input("Enter number of 5 rupees coin:"))
+    Y = int(input("Enter number of 10 rupees coin:"))
+    Z = int(input("Enter the cost of 1 chocolate:"))
+    Coin5 = 5 * X
+    Coin10 = 10 * Y
+    numc = int((Coin5 + Coin10) / Z)
+    print("Number of chocolates Chef can buy are:", numc)
