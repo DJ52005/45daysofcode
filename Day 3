@@ -1,0 +1,41 @@
+#in python
+T = int(input("Enter number of test cases:"))
+for i in range(T):
+   X = int(input("Enter number of students admitted this year:"))
+   Y = int(input("Enter number of chairs already present with Chef:"))
+   if X>=Y:
+       print("Number of new chairs required are ", X-Y)
+   else:
+       print("Number of new chairs required are 0")
+
+
+
+
+//in C
+#include <stdio.h>
+
+int main() {
+    int T;
+    printf("Enter number of test cases: ");
+    scanf("%d", &T);
+
+    for (int i = 0; i < T; i++) {
+        int X, Y;
+        printf("Enter number of students admitted this year: ");
+        scanf("%d", &X);
+
+        printf("Enter number of chairs already present with Chef: ");
+        scanf("%d", &Y);
+
+        if (X > Y) {
+            printf("Number of new chairs required are %d\n", X - Y);
+        } else {
+            printf("Number of new chairs required are 0\n");
+        }
+    }
+
+    return 0;
+}
+
+
+  
