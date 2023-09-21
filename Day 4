@@ -1,0 +1,29 @@
+#in python
+T = int(input("Enter number of test cases:"))
+for i in range(T):
+  x= int(input("Enter Number of chocolates mandatory:"))
+  y = int(input("Enter number of actual chocolates sold:"))
+  print("The total amount the chef earned is:", x+2*(y-x))
+
+//in C
+#include <stdio.h>
+
+int main() {
+    int T;
+    printf("Enter number of test cases:");
+    scanf("%d", &T);
+
+    for (int i = 0; i < T; i++) {
+        int X, Y;
+        printf("Enter Number of chocolates mandatory:");
+        scanf("%d", &X);
+
+        printf("Enter number of actual chocolates sold:");
+        scanf("%d", &Y);
+
+        int total_earned = X + 2 * (Y - X);
+        printf("The total amount the chef earned is: %d\n", total_earned);
+    }
+
+    return 0;
+}
