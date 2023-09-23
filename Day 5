@@ -1,0 +1,12 @@
+import math
+
+
+N = int(input("Enter the number of friends: "))
+
+
+max_people_per_car = 4
+
+
+min_cars_required = math.ceil(N / max_people_per_car)
+
+print(f"Minimum number of cars required: {min_cars_required}")
