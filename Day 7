@@ -1,0 +1,7 @@
+T = int(input("Enter number of test cases:"))
+for i in range(T):
+    X= int(input("Enter litres of water in geyser:"))
+    Y = int(input("Enter the capacity of bucket:"))
+    P = X/Y
+    B=P*2
+    print("The maximum number of people that can take bath is:", B)
