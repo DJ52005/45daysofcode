@@ -1,0 +1,14 @@
+def max_rent_months(X, Y):
+    # Calculate the maximum number of months Chef can rent the cooler
+    max_months = Y // X
+    return max_months
+
+# Input the cost of renting (X) and the cost of purchasing (Y)
+X = int(input("Enter the cost of renting per month (X coins): "))
+Y = int(input("Enter the cost of purchasing the cooler (Y coins): "))
+
+# Calculate the maximum number of months Chef can rent the cooler
+max_months = max_rent_months(X, Y)
+
+# Print the result
+print(f"The maximum number of months Chef can rent the cooler is {max_months} months.")
