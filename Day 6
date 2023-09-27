@@ -1,0 +1,6 @@
+X = int(input("Enter the number of followers:"))
+Y = input("Enter the number of followings:")
+if Y*10==X:
+    print("Spam Account")
+else:
+    print("Actual Accou")
