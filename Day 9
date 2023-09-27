@@ -1,0 +1,14 @@
+def max_chocolates(X, Y):
+   
+    max_chocolates = X // Y
+    return max_chocolates
+
+
+X = int(input("Enter the total amount of money Chef has (X rupees): "))
+Y = int(input("Enter the cost of one chocolate (Y rupees): "))
+
+
+max_chocolates = max_chocolates(X, Y)
+
+
+print(f"The maximum number of chocolates Chef can buy is {max_chocolates}.")
