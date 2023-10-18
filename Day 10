@@ -1,0 +1,12 @@
+T = int(input("Enter number of test cases:"))
+for i in range(T):
+    A= int(input("Enter Alice's score:"))
+    B= int(input("Enter Bob's score:"))
+    if A>=7 or B>=7:
+        print("The game is already over")
+    elif A>B:
+        print(" number of points that will be further scored in the match before it ends is:", 7-A)
+    elif B>A:
+        print(" number of points that will be further scored in the match before it ends is:", 7-B)
+    else:
+        print("Invalid Input")
