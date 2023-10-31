@@ -1,0 +1,10 @@
+T = int(input("Enter number of test cases:"))
+for i in range(T):
+    X = int(input("Enter the pixels bullet moves per frame:"))
+    Y = int(input("Enter the distance between Mario and Goomba"))
+    Z = int(input("Enter the least time Goomba should be from the initial point:"))
+    tim_1 = Y/X #distance
+    tim_2 = tim_1 + Z
+    print("The minimum amount of time required to shoot the Goomba:", time_2)
+
+    
